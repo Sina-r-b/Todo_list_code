@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list</title>
+    <script defer src="scripts/script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Josefin+Sans:300,400,600,700|Nunito:300,400,600,700"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Input -->
+    <form class="todo">
+      <label for="input" class="todo-lable">Enter your task:</label>
+      <input type="text" id="input" class="todo-inp" />
+      <button type="button" class="todo-btn todo-btn-add">
+        Add to todo list
+      </button>
+      <button type="button" class="todo-btn todo-btn-search">Search</button>
+    </form>
+
+    <!-- Table -->
+    <table class="todo-table">
+      <tr class="todo-table-row-title">
+        <th class="todo-table-titel">Num</th>
+        <th class="todo-table-titel">Tasks</th>
+        <th class="todo-table-titel">Date</th>
+        <th class="todo-table-titel">Act</th>
+        <th class="todo-table-titel">Status</th>
+        <th class="todo-table-titel">Act data</th>
+      </tr>
+      <!-- <tr class="todo-table-row hidden">
+        <td class="todo-table-item todo-table-item-0">1</td>
+        <td class="todo-table-item todo-table-item-0">wash</td>
+        <td class="todo-table-item todo-table-item-0">8/27/2023</td>
+        <td class="todo-table-item todo-table-item-0">
+          <button type="button" class="todo-btn todo-btn-check">✔</button>
+          <button type="button" class="todo-btn todo-btn-not-check">✖</button>
+        </td>
+      </tr> -->
+    </table>
+  </body>
+</html>

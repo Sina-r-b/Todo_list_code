@@ -1,0 +1,23 @@
+$background-color: #7c1c1c;
+$color-primary: #d3ab55;
+$color-secondary: #bbb;
+
+$font-dancingScript: "Dancing Script", cursive;
+$font-josefinSens: "Josefin Sens", sans-serif;
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin textStyle {
+  font-family: $font-dancingScript;
+  font-size: 30px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}

@@ -1,0 +1,50 @@
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+body {
+  background-color: #7c1c1c;
+  color: white;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.todo-lable {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+.todo-inp {
+  border-radius: 10px;
+  margin-left: 20px;
+  margin: 10px 0;
+}
+.todo-btn {
+  border-radius: 25px;
+  background-color: #d3ab55;
+  margin: 5px 0;
+}
+.todo-btn:hover {
+  background-color: #bbb;
+}
+
+.todo-table {
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+.todo-table-item {
+  font-family: "Josefin Sens", sans-serif;
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
